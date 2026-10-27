@@ -1,0 +1,30 @@
+# Local data and generated output
+data/*.db
+data/*.db-*
+data/*.log
+data/app.pid
+data/exports/*
+!data/exports/.gitkeep
+data/llama-server.log
+
+# Runtime assets: linked or downloaded locally, never committed
+vendor/
+models/
+*.gguf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Runtime symlinks (linked to a local foreshadow checkout)
+models
+vendor
